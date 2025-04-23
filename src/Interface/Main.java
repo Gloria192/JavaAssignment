@@ -5,7 +5,7 @@ public class Main {
         NotificationService notification = new PushNotification();
         notification.sendNotification("sending push notification");
         NotificationService email = new EmailNotification();
-        email.sendNotification("receiving email notification");
+        email.sendNotification("receiving email notification e");
         NotificationService sms = new SMSNotification();
         sms.sendNotification("receiving SMS notification");
 
