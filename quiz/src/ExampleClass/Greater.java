@@ -1,4 +1,7 @@
 package ExampleClass;
 
-public class Greater {
+public interface Greater {
+    void greet(String name);
+
+
 }
